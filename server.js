@@ -30,7 +30,7 @@ hbs.registerHelper("screamIt", (text) => {
 app.get('/', (req, res) => {
 	res.render('index.hbs', {
 		pageTitle : "Page Title Hbs",
-		wellcomeMessage: "Fuck you"
+		wellcomeMessage: "Hi you all"
 	});
 });
 
